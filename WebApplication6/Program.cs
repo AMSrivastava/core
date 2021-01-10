@@ -21,6 +21,7 @@ namespace WebApplication6
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+					//
                 });
     }
 }
